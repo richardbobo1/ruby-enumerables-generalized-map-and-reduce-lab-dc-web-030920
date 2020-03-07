@@ -6,4 +6,4 @@ end
 def map_to_double(source_array)
 end
 
-map_to_double(map) { |i| i*2 }
+map_to_double(dune) { |i| i*2 }
