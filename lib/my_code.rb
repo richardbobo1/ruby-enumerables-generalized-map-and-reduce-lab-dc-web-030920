@@ -1,11 +1,11 @@
 def map(array)
-  array = []
+  new = []
   counter = 0 
   while counter < array.length 
     new.push(yield(array[counter]))
     counter += 1 
   end
-  array 
+  new 
 end
 
 def reduce(array, sv=nil)
