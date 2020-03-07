@@ -2,7 +2,7 @@ def map(source_array)
  source_array.map { |i| -i }
 end
 
-map { |i| i*2 }
+source_array.map { |i| i*2 }
 
 # def map_to_double(source_array)
 #   source_array.map { |i| i*2 }
