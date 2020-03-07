@@ -4,5 +4,5 @@ end
 
 
 def map_to_double(source_array)
-  source_array.map { |i| i*2 }
+  source_array.map { |i| i }
 end
