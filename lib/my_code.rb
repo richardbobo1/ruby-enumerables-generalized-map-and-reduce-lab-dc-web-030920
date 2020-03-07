@@ -8,6 +8,18 @@ def map(source_array)
   new_array
 end
 
+def reduce(array, sv=nil)
+  if sv 
+    num1 = sv 
+    i = 0 
+  else 
+    num1 = array[0]
+    i = 1 
+  end 
+  
+  while i < array.length 
+  yield() 
+  
 
 # def map(source_array)
 # source_array.map { |i| -i }
